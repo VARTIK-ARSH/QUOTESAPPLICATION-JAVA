@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#EFDD41"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="328dp"
+        android:layout_height="291dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textquotes"
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:gravity="center_horizontal|center_vertical"
+            android:text="🐦 ⋆ 🐟  🎀  𝐿𝒾𝒻𝑒 𝒾𝓈 𝑒𝒾𝓉𝒽𝑒𝓇 𝒶 𝒹𝒶𝓇𝒾𝓃𝑔 𝒶𝒹𝓋𝑒𝓃𝓉𝓊𝓇𝑒 💍𝓇 𝓃♡𝓉𝒽𝒾𝓃𝑔.  🎀  🐟 ⋆ 🐦"
+            android:textSize="25sp" />
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imagereset"
+        android:layout_width="67dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.877"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.103"
+        app:srcCompat="@android:drawable/stat_notify_sync" />
+
+    <ImageView
+        android:id="@+id/imageshare"
+        android:layout_width="67dp"
+        android:layout_height="76dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imagereset"
+        app:layout_constraintHorizontal_bias="0.181"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.103"
+        app:srcCompat="@android:drawable/ic_menu_share"
+        tools:ignore="MissingConstraints" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
